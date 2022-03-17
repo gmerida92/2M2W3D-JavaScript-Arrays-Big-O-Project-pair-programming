@@ -53,7 +53,7 @@ function pushTest(n) {
 // pushTest(n);
 // console.timeEnd(`pushTest(${n}): `);
 
-//pop
+//pop => time complexity: O(1)
 function popTest(arr) {
   const n = arr.length;
 
@@ -114,3 +114,43 @@ function popTest(arr) {
 //reduce => Time Complexity O(n)
 //every => Time Complexity O(n)
 
+//unshift => Time Complexity: O(n)
+function unshiftTest(n) {
+  const arr = [];
+
+  for (let i = 0; i < n; i++) {
+    arr.unshift(i);
+  }
+
+  return arr;
+}
+
+let n = 10;
+console.time(`unshiftTest(${n}): `);
+pushTest(n);
+console.timeEnd(`unshiftTest(${n}): `);
+
+let o = 100;
+console.time(`unshiftTest(${o}): `);
+pushTest(o);
+console.timeEnd(`unshiftTest(${o}): `);
+
+let p = 1000;
+console.time(`unshiftTest(${p}): `);;
+pushTest(p);
+console.timeEnd(`unshiftTest(${p}): `);
+
+let q = 10000;
+console.time(`unshiftTest(${q}): `);
+pushTest(q);
+console.timeEnd(`unshiftTest(${q}): `);
+
+let r = 100000;
+console.time(`unshiftTest(${r}): `);
+pushTest(r);
+console.timeEnd(`unshiftTest(${r}): `);
+
+let s = 1000000;
+console.time(`unshiftTest(${s}): `);
+pushTest(s);
+console.timeEnd(`unshiftTest(${s}): `);
