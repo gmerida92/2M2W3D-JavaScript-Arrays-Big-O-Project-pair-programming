@@ -64,32 +64,53 @@ function popTest(arr) {
   return arr;
 }
 
-let n = 10;
-console.time(`popTest(${n}): `);
-pushTest(n);
-console.timeEnd(`popTest(${n}): `);
+// let n = 10;
+// console.time(`popTest(${n}): `);
+// pushTest(n);
+// console.timeEnd(`popTest(${n}): `);
 
-let o = 100;
-console.time(`popTest(${o}): `);
-pushTest(o);
-console.timeEnd(`popTest(${o}): `);
+// let o = 100;
+// console.time(`popTest(${o}): `);
+// pushTest(o);
+// console.timeEnd(`popTest(${o}): `);
 
-let p = 1000;
-console.time(`popTest(${p}): `);
-pushTest(p);
-console.timeEnd(`popTest(${p}): `);
+// let p = 1000;
+// console.time(`popTest(${p}): `);
+// pushTest(p);
+// console.timeEnd(`popTest(${p}): `);
 
-let q = 10000;
-console.time(`popTest(${q}): `);
-pushTest(q);
-console.timeEnd(`popTest(${q}): `);
+// let q = 10000;
+// console.time(`popTest(${q}): `);
+// pushTest(q);
+// console.timeEnd(`popTest(${q}): `);
 
-let r = 100000;
-console.time(`popTest(${r}): `);
-pushTest(r);
-console.timeEnd(`popTest(${r}): `);
+// let r = 100000;
+// console.time(`popTest(${r}): `);
+// pushTest(r);
+// console.timeEnd(`popTest(${r}): `);
 
-let s = 1000000;
-console.time(`popTest(${s}): `);
-pushTest(s);
-console.timeEnd(`popTest(${s}): `);
+// let s = 1000000;
+// console.time(`popTest(${s}): `);
+// pushTest(s);
+// console.timeEnd(`popTest(${s}): `);
+
+//map
+// const map = array.map(x => x * 2);
+
+// let array10 = randomNumberArr(10)
+// let array100 = randomNumberArr(100)
+// let array1000 = randomNumberArr(1000)
+// let array10000 = randomNumberArr(10000)
+// let array100000 = randomNumberArr(10000)
+
+// const map10 = array10.map(x => x * 2);
+// console.log(map10);
+// console.time(`popTest(${o}): `);
+// pushTest(o);
+// console.timeEnd(`popTest(${o}): `);
+
+
+//filter => Time Complexity O(n)
+//reduce => Time Complexity O(n)
+//every => Time Complexity O(n)
+
