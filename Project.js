@@ -125,32 +125,73 @@ function unshiftTest(n) {
   return arr;
 }
 
-let n = 10;
-console.time(`unshiftTest(${n}): `);
-pushTest(n);
-console.timeEnd(`unshiftTest(${n}): `);
+// let n = 10;
+// console.time(`unshiftTest(${n}): `);
+// pushTest(n);
+// console.timeEnd(`unshiftTest(${n}): `);
 
-let o = 100;
-console.time(`unshiftTest(${o}): `);
-pushTest(o);
-console.timeEnd(`unshiftTest(${o}): `);
+// let o = 100;
+// console.time(`unshiftTest(${o}): `);
+// pushTest(o);
+// console.timeEnd(`unshiftTest(${o}): `);
 
-let p = 1000;
-console.time(`unshiftTest(${p}): `);;
-pushTest(p);
-console.timeEnd(`unshiftTest(${p}): `);
+// let p = 1000;
+// console.time(`unshiftTest(${p}): `);;
+// pushTest(p);
+// console.timeEnd(`unshiftTest(${p}): `);
 
-let q = 10000;
-console.time(`unshiftTest(${q}): `);
-pushTest(q);
-console.timeEnd(`unshiftTest(${q}): `);
+// let q = 10000;
+// console.time(`unshiftTest(${q}): `);
+// pushTest(q);
+// console.timeEnd(`unshiftTest(${q}): `);
 
-let r = 100000;
-console.time(`unshiftTest(${r}): `);
-pushTest(r);
-console.timeEnd(`unshiftTest(${r}): `);
+// let r = 100000;
+// console.time(`unshiftTest(${r}): `);
+// pushTest(r);
+// console.timeEnd(`unshiftTest(${r}): `);
 
-let s = 1000000;
-console.time(`unshiftTest(${s}): `);
-pushTest(s);
-console.timeEnd(`unshiftTest(${s}): `);
+// let s = 1000000;
+// console.time(`unshiftTest(${s}): `);
+// pushTest(s);
+// console.timeEnd(`unshiftTest(${s}): `);
+
+//shift => Time Complexity O(1)
+function shiftTest(arr) {
+    const n = arr.length;
+  
+    for (let i = 0 ; i < n ; i++) {
+      arr.shift();
+    }
+  
+    return arr;
+  }
+
+let a = 10;
+console.time(`shiftTest(${a}): `);
+shiftTest(a);
+console.timeEnd(`shiftTest(${a}): `);
+
+let s = 100;
+console.time(`shiftTest(${s}): `);
+shiftTest(s);
+console.timeEnd(`shiftTest(${s}): `);
+
+let d = 1000;
+console.time(`shiftTest(${d}): `);
+shiftTest(d);
+console.timeEnd(`shiftTest(${d}): `);
+
+let f = 10000;
+console.time(`shiftTest(${f}): `);
+shiftTest(f);
+console.timeEnd(`shiftTest(${f}): `);
+
+let g = 100000;
+console.time(`shiftTest(${g}): `);
+shiftTest(g);
+console.timeEnd(`shiftTest(${g}): `);
+
+let h = 1000000;
+console.time(`shiftTest(${h}): `);
+shiftTest(h);
+console.timeEnd(`shiftTest(${h}): `);
