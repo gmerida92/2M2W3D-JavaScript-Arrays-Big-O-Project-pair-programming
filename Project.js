@@ -28,27 +28,27 @@ function pushTest(n) {
     return arr;
 }
 
-let l = 10;
-console.time(`pushTest(${l}): `);
-pushTest();
-console.timeEnd(`pushTest(${l}): `);
+// let l = 10;
+// console.time(`pushTest(${l}): `);
+// pushTest();
+// console.timeEnd(`pushTest(${l}): `);
 
-let a = 100;
-console.time(`pushTest(${a}): `);
-pushTest(a);
-console.timeEnd(`pushTest(${a}): `);
+// let a = 100;
+// console.time(`pushTest(${a}): `);
+// pushTest(a);
+// console.timeEnd(`pushTest(${a}): `);
 
-let s = 1000;
-console.time(`pushTest(${s}): `);
-pushTest(s);
-console.timeEnd(`pushTest(${s}): `);
+// let s = 1000;
+// console.time(`pushTest(${s}): `);
+// pushTest(s);
+// console.timeEnd(`pushTest(${s}): `);
 
-let d = 10000;
-console.time(`pushTest(${d}): `);
-pushTest(d);
-console.timeEnd(`pushTest(${d}): `);
+// let d = 10000;
+// console.time(`pushTest(${d}): `);
+// pushTest(d);
+// console.timeEnd(`pushTest(${d}): `);
 
-let n = 100000;
-console.time(`pushTest(${n}): `);
-pushTest(n);
-console.timeEnd(`pushTest(${n}): `);
+// let n = 100000;
+// console.time(`pushTest(${n}): `);
+// pushTest(n);
+// console.timeEnd(`pushTest(${n}): `);
